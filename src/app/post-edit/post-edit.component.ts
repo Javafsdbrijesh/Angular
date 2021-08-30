@@ -57,7 +57,8 @@ export class PostEditComponent implements OnInit {
       description,
       imagePath,
       'javafsd@gmail.com',
-      new Date()
+      new Date(),
+      0
     );
 
     if (this.editMode) {
